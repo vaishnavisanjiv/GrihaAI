@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "epoch": 1,
+  "total_epochs": 1,
+  "batch": 50,
+  "total_batches": 50,
+  "percent": 100,
+  "best_epoch": 1,
+  "best_validation_mean_iou": 0.06393007642783109,
+  "device": "cpu"
+}

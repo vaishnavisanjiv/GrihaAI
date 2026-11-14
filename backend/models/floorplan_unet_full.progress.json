@@ -1,0 +1,12 @@
+{
+  "status": "running",
+  "epoch": 1,
+  "total_epochs": 30,
+  "batch": 211,
+  "total_batches": 1747,
+  "percent": 12.08,
+  "batch_loss": 2.0088675022125244,
+  "samples_seen": 422,
+  "train_samples": 3494,
+  "device": "cpu"
+}

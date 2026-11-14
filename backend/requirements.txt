@@ -1,0 +1,59 @@
+# ============================================================
+# BuildGuard AI - Backend Dependencies
+# ============================================================
+
+# --- Core Framework ---
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.3
+pydantic-settings>=2.1.0
+email-validator>=2.1.0
+python-multipart>=0.0.6
+python-dotenv>=1.0.1
+aiofiles>=23.2.1
+jinja2>=3.1.3
+
+# --- Database ---
+sqlalchemy>=2.0.25
+alembic>=1.13.1
+psycopg[binary]>=3.1.18
+
+# --- Authentication ---
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+bcrypt>=4.1.2
+
+# --- Image Processing (Core) ---
+pillow>=10.2.0
+opencv-python-headless>=4.9.0.80
+numpy>=1.26.3
+scikit-image>=0.22.0
+
+# --- Spatial Analysis ---
+networkx>=3.2.1
+shapely>=2.0.2
+
+# --- Report Generation ---
+reportlab>=4.0.9
+
+# --- Utilities ---
+python-dateutil>=2.8.2
+
+# --- Testing ---
+pytest>=8.0.0
+httpx>=0.26.0
+
+# --- PDF Processing ---
+pdf2image>=1.17.0
+
+# --- Optional ML training/inference ---
+# Install backend/requirements-ml.txt for the PyTorch segmentation pipeline.
+scikit-learn>=1.4.0
+
+# --- Optional: OCR ---
+# pip install paddleocr
+# paddleocr>=2.7.0.3
+
+# --- Optional: Vector Search / RAG ---
+faiss-cpu>=1.7.4
+# chromadb>=0.4.22
